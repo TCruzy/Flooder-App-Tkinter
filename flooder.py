@@ -4,9 +4,6 @@ from time import sleep
 
 app = Tk()
 
-# make simple window with title and 2 input fields and submit button.
-
-
 
 class Flooder:
     def __init__(self, master):
@@ -52,8 +49,6 @@ class Flooder:
 flooder = Flooder(app)
 
 app.mainloop()
-
-
 
 
 
